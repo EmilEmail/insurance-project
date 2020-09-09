@@ -8,3 +8,5 @@
 6. Pusha dina commits till github och verifiera att de finns uppe på github.com
 
 blablaba
+
+stefan
