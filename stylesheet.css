@@ -1,1 +1,130 @@
 
+body {
+
+   background-color: #E5E5E5;
+}
+
+
+.wrapper {
+
+    display: grid;
+    grid-template-columns:  1fr;
+    grid-template-rows: 100vh 50vh 50vh;
+    padding: 0px;
+    max-width: 100%;
+   min-width: 100%;
+
+}
+
+
+.blueblock {
+    
+    
+    display: flex;
+    background-color: lightblue;
+    grid-row: 1 / 1;
+}
+
+.responsive {
+
+    width: 100%;
+    max-width: 300px;
+    height: 300px;
+}
+
+.orangeblock {
+
+    background-color: orange;
+    display: flex;
+    grid-row: 2 / 2;
+}
+
+.redblock {
+
+    background-color:tomato;
+    display: flex;
+    grid-row: 3 / 3 ;
+}
+
+.main {
+
+    display: grid;
+    grid-template-columns:  1fr;
+    grid-template-rows: 200vh 75vh;
+    padding: 0px;
+    max-width: 100%;
+    min-width: 100%;
+
+}
+
+.grayblock {
+
+        background: darkgray;
+        display: flex;
+        max-height: 200vh;
+        
+}
+
+.darkorangeblock {
+    
+    background-color: orange;
+    display: flex;
+    max-height: 75vh;
+
+}
+
+/* */ 
+.boxes {
+    
+    display: grid;
+    grid-template-columns:  1fr;
+    grid-template-rows: 25vh 25vh 25vh 25vh 25vh 25vh ;
+    padding: 0px;
+    max-width: 100%;
+    min-width: 100%;
+}
+
+.how {
+    background-color: lightblue ;
+
+
+}
+
+.box1 {
+    background-color: white ;
+
+}
+
+.box2 {
+    background-color: lightgray;
+
+}
+
+.box3 {
+    background-color: white;
+
+}
+
+.box4 {
+
+    background-color:tomato ;
+}
+
+.box5 {
+    background-color: white ;
+
+}
+
+.bottom {
+
+   background-color: gray;
+   min-height: 10vh;
+  
+
+}
+
+.Takeup {
+    background-color: darkgray;
+    min-height: 2rem;
+
+}
