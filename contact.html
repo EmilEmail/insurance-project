@@ -9,21 +9,27 @@
 <body>
     <section class="wrapper">
 
-        <header class="top">
-            <section class="flexcenter">
+        <header class="top blockpadding">
+            <section class="heading flexcenter">
                 <h2 class="headingtext textcenter">Oh hello there!</h2>
-                <img src="img/adult.png" alt="Picture of a man with a child on his head" class="toppicture">
+                <img src="img/adult.png" alt="Picture of a man with a child on his head" class="toppicture topmargin">
             </section>
             <nav class="navbar">
+                <ul class="navigations">
+                    <li><a href="index.html">Home</a></li>
+                    <li><nobr><a href="#">Our offer</a></nobr></li>
+                    <li><a href="#">Why us</a></li>
+                    <li><p class="activepage">Contact</p></li>
+                </ul>
 
             </nav>
 
         </header>
 
         <main class="main">
-            <section class="flexcenter">
+            <section class="flexcenter blockpadding">
                 <h2 class="formtext textcenter">What's on your mind?</h2>
-                <form class="contactform" action="#">
+                <form class="contactform topmargin" action="#">
                     <label for="email">Your email</label><br>
                     <input type="email" name="email" id="email"><br>
                     <label for="message">Your message</label><br>
@@ -33,7 +39,7 @@
             </section>
         </main>
 
-        <section class="mapcontainer">
+        <section class="mapcontainer flexcenter blockpadding">
             <section class="card">
                 <h2>Come visit us!</h2>
                 <address>

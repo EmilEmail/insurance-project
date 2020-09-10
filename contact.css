@@ -3,7 +3,7 @@
 }
 
 .wrapper {
-    max-width: 1002px;
+    max-width: 960px;
     margin: auto;
 }
 .flexcenter {
@@ -14,6 +14,18 @@
 .textcenter {
     text-align: center;
 }
+.blockpadding {
+    padding-top: 30px;
+}
+.topmargin {
+    padding-top: 20px;
+}
+h2 {
+    display: block;
+    width: 100%;
+    color: white;
+}
+
 
 /*******************************************
                 Heading
@@ -26,15 +38,8 @@
     max-height: 20%;
     max-width: 20%;
 }
-h2 {
-    display: block;
-    width: 100%;
-}
-.navbar {
-    background-color: white;
-    width: 100%;
-    height: 68px;
-    display: none;
+.headingtext {
+    color: black;
 }
 
 /*******************************************
@@ -42,21 +47,92 @@ h2 {
 *******************************************/
 .main {
     background-color: rgb(169, 161, 158);
-    height: 544px;
 }
 .contactform {
-    margin: auto;
+    color: white;
 }
 .mapcontainer {
     background-color: rgb(80, 80 ,80);
+    background-image: url(img/map.jpg);
     padding: 10%;
 }
 .card {
     background-color: #fab131;
-    padding: 10px;
+    padding: 20px;
 }
 .bottom {
     background-color: rgb(119, 117, 116);
-    height: 340px;
+    height: 100px;
 }
 
+
+/****************************************
+                Media query
+
+****************************************/
+@media only screen and (min-width: 769px){
+
+    /*************************************
+                mainRules
+                *************************/
+
+    .flexcenter {
+        flex-direction: row;
+    }
+
+    /************************************
+            Heading desktop
+    *********************************/
+    .heading {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 400px;
+        max-height: 400px;
+        overflow: hidden;
+    }
+
+    .headingtext {
+        grid-column: 2;
+    }
+    .toppicture {
+        margin-top: 20%;
+        grid-row: 1;
+        grid-column: 3;
+        max-height: 100%;
+        max-width: 100%;
+        
+    }
+
+    
+    .navbar {
+        display: flex;
+        background-color: white;
+        height: 68px;
+        white-space: nowrap;
+    }
+    
+    .navigations {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 20%;
+    }
+    
+    .navigations li {
+        display: inline-flex;
+        list-style: none;
+    }
+
+    .activepage {
+        color: black;
+    }
+    a {
+        text-decoration: none;
+        color: rgb(169, 161, 158);
+    }
+    a:hover {
+        color: black;
+    }
+
+}
