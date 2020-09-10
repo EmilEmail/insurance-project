@@ -6,8 +6,7 @@
     <link rel="stylesheet" href="contact.css">
     <title>Insurence Company Contact</title>
 </head>
-<body>
-    <section class="wrapper">
+<body class="wrapper">
 
         <header class="top blockpadding">
             <section class="heading flexcenter">
@@ -17,7 +16,7 @@
             <nav class="navbar">
                 <ul class="navigations">
                     <li><a href="index.html">Home</a></li>
-                    <li><nobr><a href="#">Our offer</a></nobr></li>
+                    <li><a href="#">Our offer</a></li>
                     <li><a href="#">Why us</a></li>
                     <li><p class="activepage">Contact</p></li>
                 </ul>
@@ -27,14 +26,14 @@
         </header>
 
         <main class="main">
-            <section class="flexcenter blockpadding">
+            <section class="formcontainer flexcenter blockpadding">
                 <h2 class="formtext textcenter">What's on your mind?</h2>
                 <form class="contactform topmargin" action="#">
                     <label for="email">Your email</label><br>
                     <input type="email" name="email" id="email"><br>
                     <label for="message">Your message</label><br>
                     <textarea name="message" id="message" cols="30" rows="10" placeholder="Dear Insurance company..."></textarea><br>
-                    <input type="submit" value="send message">
+                    <input class="submitbtn"type="submit" value="send message">
                 </form>
             </section>
         </main>
@@ -52,7 +51,5 @@
         <footer class="bottom">
 
         </footer>
-
-    </section>
 </body>
 </html>
