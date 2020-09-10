@@ -128,3 +128,59 @@ body {
     min-height: 2rem;
 
 }
+
+/* här börjar kod för olika-åldrar-rutorna*/
+
+.containerAgeBoxes {
+    /*behållare för de tre lådorna med bilder på barn vuxen gammal*/
+    display: flex;
+    flex-direction: column;
+    /*ändra till row i desktop*/
+    justify-content: center;
+    align-items: center;
+}
+
+.ageImage {
+    /*behållare för bilderna på personer i olika åldrar*/
+    overflow: hidden; 
+    width: 45vw;
+    height: calc(45vw/2);
+    /*kanske en dum storlek, behöver ändras til desktop*/
+    margin: auto;
+    /*centrerar bild-behållaren*/
+    border-radius: 10px;
+    /*gör hörnen rundade*/
+    position: relative;
+    top: -4rem;
+    /*gör så att bildbehållaren flyttas uppåt, kanske dålig lösning*/
+}
+
+.adult {
+    background: orange url("img/adult.png") no-repeat center 10px;
+    /* 10px avstånd till toppen så inte huvudet slår i taket */
+    background-size: 30% auto;
+    /*bilden tar upp en 30% av behållarens bredd och klipps på höjden pga overflow hidden*/
+}
+
+.child {
+    background: lightskyblue url("img/child.png") no-repeat center 20px;
+    background-size: 30% auto;
+}
+
+.old {
+    background: coral url("img/old.png") no-repeat center 20px;
+    background-size: 45% auto;
+    /*old fart är lite bredare än de andra*/
+}
+
+.ageBox {
+    background-color: white;
+    margin: 5rem;
+    text-align: center;
+    padding: 2rem;
+    border-radius: 10px;
+
+}
+
+/* här slutar kod för olika-åldrar-rutorna*/
+
