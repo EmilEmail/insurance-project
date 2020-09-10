@@ -41,6 +41,9 @@ h2 {
 .headingtext {
     color: black;
 }
+.navbar {
+    display: none;
+}
 
 /*******************************************
                 Main
@@ -49,22 +52,34 @@ h2 {
     background-color: rgb(169, 161, 158);
 }
 .formcontainer {
-    padding-bottom: 8%;
+    padding-bottom: 0%;
 }
 .contactform {
+    display: grid;
     color: white;
+    width: 200px;
+}
+input {
+    height: 35px;
+}
+textarea {
+    height: 150px;
+    resize: none;
 }
 input, textarea {
     margin-bottom: 5%;
+    border: none;
+    border-radius: 2px;
 }
 .submitbtn {
+    justify-self: center;
     background-color: white;
-    padding: 10px 20px;
+    width: 150px;
+    height: 35px;
     border: none;
     border-radius: 50px;
     box-shadow: 0px 2px rgb(80, 80 ,80);
     text-transform: uppercase;
-
 }
 .mapcontainer {
     background-color: rgb(80, 80 ,80);
@@ -152,9 +167,13 @@ input, textarea {
     .formcontainer {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+        padding-bottom: 8%;
     }
     .contactform {
-        grid-column: 2;
+        width: 300px;
+    }
+    .submitbtn {
+        justify-self: right;
     }
 
 }
