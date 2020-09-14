@@ -2,6 +2,7 @@
 body {
 
    background-color: #E5E5E5;
+   font-family: fira sans;
 }
  @font-face {
     font-family:'fira sans';
@@ -19,6 +20,8 @@ body {
     font-weight: 100;
 }
  
+h2 {font-family: frank ruhl libre;}
+
 
 .wrapper {
 
@@ -125,14 +128,21 @@ font-family: frank ruhl libre ;
 }
 
 
+/* här börjar kod för section boxes */
+
+
 .boxes {
     
     display: grid;
     grid-template-columns:  1fr;
-    grid-template-rows: 25vh 25vh 25vh 25vh 25vh 25vh ;
-    padding: 0px;
-    max-width: 100%;
-    min-width: 100%;
+    grid-template-rows: 25vh 25vh 25vh 25vh 25vh 25vh;
+}
+
+.boxes div {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
 }
 
 .how {
@@ -237,12 +247,12 @@ main {
 }
 
 .introHeader{
-    padding: 10% 10% 0% 10%;
+    padding: 10% 10% 0 10%;
     /*ingen padding bottom annars blir det för långt avstånd under rubriken*/
 }
     
 .introText{
-    padding: 0% 10% 10% 10%;
+    padding: 0 10% 10% 10%;
     /*ingen padding top */
 }
 
@@ -280,7 +290,6 @@ main {
 
 main button{
     display:block;
-
 }
 
 .introHeader{
@@ -312,7 +321,52 @@ main button{
     background-color:transparent;
 }
 
-/* här slutar kod för main*/
+.introHeader, .about h2 {color:white;}
+
+/* här börjar kod för section boxes */
+
+.boxes {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr) ;
+}
+
+.how {
+    grid-row: auto;
+    grid-column: auto;
+
+}
+
+.box1 {
+    grid-row: auto;
+    grid-column: auto;
+
+}
+
+.box2 {
+    grid-row: auto;
+    grid-column: auto;
+
+}
+
+.box3 {
+    grid-row: auto;
+    grid-column: auto;
+
+}
+
+.box4 {
+    grid-row: 2/3;
+    grid-column: 2/3;
+
+}
+
+.box5 {
+    grid-row: 2/3;
+    grid-column: 3/4;
+
+
+}
 
 
 /* 
