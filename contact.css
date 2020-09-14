@@ -43,6 +43,10 @@ h2 {
     font-weight: 900;
     letter-spacing: -3px;
 }
+li a, li p, label, address {
+    font-size: 12px;
+    line-height: 24px;
+}
 
 
 /*******************************************
