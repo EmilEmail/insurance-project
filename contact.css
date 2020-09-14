@@ -25,9 +25,7 @@ body {
     flex-direction: column;
     align-items: center;
 }
-.textcenter {
-    text-align: center;
-}
+
 .blockpadding {
     padding-top: 10%;
 }
@@ -42,6 +40,7 @@ h2 {
     font-size: 48px;
     font-weight: 900;
     letter-spacing: -3px;
+    text-align: center;
 }
 li a, li p, label, address {
     font-size: 12px;
@@ -55,6 +54,7 @@ li a, li p, label, address {
 
 .top {
     background-color: rgb(199, 221, 234);
+    padding-top: 40px;
 }
 .toppicture {
     max-height: 20%;
@@ -102,6 +102,9 @@ input, textarea {
     border-radius: 50px;
     box-shadow: 0px 2px rgb(80, 80 ,80);
     text-transform: uppercase;
+    font-size: 10px;
+    font-weight: 700;
+    
 }
 .mapcontainer {
     background-color: rgb(80, 80 ,80);
@@ -142,7 +145,7 @@ address {
     .heading {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: 400px;
+        grid-template-rows: 360px;
         overflow: hidden;
     }
     .headingtext {
@@ -150,7 +153,6 @@ address {
     }
     .toppicture {
         align-self: flex-start;
-        margin-top: 20%;
         grid-row: 1;
         grid-column: 3;
         max-height: 150%;
@@ -199,6 +201,14 @@ address {
     }
     .submitbtn {
         justify-self: right;
+    }
+
+    .header-container {
+        align-self: flex-start;
+        padding: 0px 60px;
+    }
+    .header-container > h2 {
+        text-align: left;
     }
 
     /**********************************
