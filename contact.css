@@ -87,11 +87,15 @@ input {
 textarea {
     height: 150px;
     resize: none;
+    padding: 10px;
 }
 input, textarea {
     margin-bottom: 5%;
     border: none;
     border-radius: 2px;
+    font-family: lira sans, sans-serif;
+    font-size: 12px;
+
 }
 .submitbtn {
     justify-self: center;
