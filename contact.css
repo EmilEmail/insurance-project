@@ -83,6 +83,9 @@ li a, li p, label, address {
 .main {
     background-color: rgb(169, 161, 158);
 }
+.main-up {
+    background-color: rgb(169, 161, 158);
+}
 .formcontainer {
     padding-bottom: 8%;
 }
