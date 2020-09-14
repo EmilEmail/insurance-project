@@ -104,6 +104,9 @@ body {
 
 /* här börjar kod för main*/
 
+main {
+    background-color:gray;}
+
 .containerAgeBoxes {
     /*behållare för de tre lådorna med bilder på barn vuxen gammal*/
     display: flex;
@@ -117,8 +120,8 @@ body {
 .ageImage {
     /*behållare för bilderna på personer i olika åldrar*/
     overflow: hidden; 
-    width: 45vw;
-    height: calc(45vw/2);
+    width: 70vw;
+    height: calc(70vw/2);
     /*kanske en dum storlek, behöver ändras til desktop*/
     margin: auto;
     /*centrerar bild-behållaren*/
@@ -149,16 +152,22 @@ body {
 
 .ageBox {
     background-color: white;
-    margin: 5rem;
+    margin: 2em;
     text-align: center;
-    padding: 2rem;
+    padding: 10px;
     border-radius: 10px;
 }
 
-.introHeader, .introText{
-    background-color:gray;
-    /*padding kanske ska ändras för att matcha resten av sidan*/
+.introHeader{
+    padding: 10% 10% 0% 10%;
+    /*ingen padding bottom annars blir det för långt avstånd under rubriken*/
 }
+    
+.introText{
+    padding: 0% 10% 10% 10%;
+    /*ingen padding top */
+}
+
 
 .about {
     background-color: orange;
@@ -180,12 +189,13 @@ main button {display:none;}
 
 .ageImage {
     /*behållare för bilderna på personer i olika åldrar*/ 
-    width: 10vw;
-    height: calc(10vw/2);
+    width: 20vw;
+    height: calc(20vw/2);
 }
 
 main {
     background: linear-gradient(180deg,gray 50%,orange 50%);
+    /*två bakgrundsfärger*/ 
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
     grid-template-columns: 1fr 1fr;}
@@ -194,27 +204,28 @@ main button{
     display:block;
 }
 
-.introHeader
-{
+.introHeader{
     grid-row: 1/2;
     grid-column:1/2;
+    margin:auto;
+    padding:20%;
 }
 
 .introText {
     grid-row: 1/2;
     grid-column:2/3;
+    margin:auto;
+    padding:20%;
 }
 
 .about {
     grid-row: 3/4;
     grid-column:1/3;
-    background-color:transparent;
 }
 
 .containerAgeBoxes {
     grid-row: 2/3;
     grid-column: 1/3;
-    /*behållare för de tre lådorna med bilder på barn vuxen gammal*/
     display: flex;
     flex-direction: row;
     justify-content: center;
