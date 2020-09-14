@@ -67,6 +67,16 @@ li a, li p, label, address {
     display: none;
 }
 
+.header-left-con {
+    background-color: rgb(199, 221, 234);
+}
+.header-right-up-con {
+    background-color: rgb(241, 121, 73);
+}
+.header-right-down-con {
+    background-color: rgb(250, 177, 49);
+}
+
 /*******************************************
                 Main
 *******************************************/
