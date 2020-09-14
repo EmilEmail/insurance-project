@@ -76,17 +76,49 @@ font-family: frank ruhl libre ;
 
 
 .orangeblock {
-
+    flex-direction: column;
     background-color: orange;
     display: flex;
     grid-row: 2 / 2;
 }
 
-.redblock {
+.orangeblock p {
 
+    font-family: fira sans;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.orangeblock h2{
+    font-family: frank ruhl libre;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+
+}
+
+
+.redblock {
+    flex-direction: column;
     background-color:tomato;
     display: flex;
     grid-row: 3 / 3 ;
+}
+
+.redblock p {
+
+    font-family: fira sans;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.redblock h2{
+    font-family: frank ruhl libre;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+
 }
 
 
