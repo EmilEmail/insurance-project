@@ -46,6 +46,22 @@ li a, li p, label, address {
     font-size: 12px;
     line-height: 24px;
 }
+.color-1 {
+    background-color: rgb(199, 221, 234);
+}
+.color-2 {
+    background-color: rgb(241, 121, 73);
+}
+.color-3 {
+    background-color: rgb(250, 177, 49);
+}
+.color-4 {
+    background-color: rgb(169, 161, 158);
+}
+.color-5 {
+    background-color: rgb(235, 235, 235);
+}
+
 
 
 /*******************************************
@@ -68,26 +84,26 @@ li a, li p, label, address {
 }
 
 .header-left-con {
-    background-color: rgb(199, 221, 234);
+
 }
 .header-right-up-con {
-    background-color: rgb(241, 121, 73);
+
 }
 .header-right-down-con {
-    background-color: rgb(250, 177, 49);
+
 }
 
 /*******************************************
                 Main
 *******************************************/
 .main {
-    background-color: rgb(169, 161, 158);
+
 }
 .main-up {
-    background-color: rgb(169, 161, 158);
+
 }
 .main-down {
-    background-color: rgb(250, 177, 49);
+
 }
 .formcontainer {
     padding-bottom: 8%;
