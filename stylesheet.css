@@ -202,7 +202,8 @@ main {
     /*ändra till row i desktop*/
     justify-content: center;
     align-items: center;
-    background-color: gray;
+    
+
 }
 
 .ageImage {
@@ -269,7 +270,7 @@ main button {display:none;}
 
 
 /****************************************
-                Media query
+                Media queryDenRätta
 ****************************************/
 @media only screen and (min-width: 769px){
 
@@ -285,8 +286,8 @@ main {
     background: linear-gradient(180deg,gray 50%,orange 50%);
     /*två bakgrundsfärger*/ 
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-template-columns: 1fr 1fr;}
+    grid-template-rows: repeat (3, 1fr);
+    grid-template-columns: repeat (2, 1fr);}
 
 main button{
     display:block;
@@ -328,45 +329,16 @@ main button{
 .boxes {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 1fr) ;
+    grid-template-rows: repeat(2, 1fr);
 }
 
-.how {
-    grid-row: auto;
+.boxes div {grid-row: auto;
     grid-column: auto;
-
 }
-
-.box1 {
-    grid-row: auto;
-    grid-column: auto;
-
-}
-
-.box2 {
-    grid-row: auto;
-    grid-column: auto;
-
-}
-
-.box3 {
-    grid-row: auto;
-    grid-column: auto;
-
-}
-
-.box4 {
-    grid-row: 2/3;
-    grid-column: 2/3;
-
-}
-
-.box5 {
-    grid-row: 2/3;
-    grid-column: 3/4;
+/* de lägger sig i första lediga ruta, mkt fiffigt */
 
 
-}
+
 
 
 /* 
