@@ -1,26 +1,40 @@
+/*******************************
+        Page Rules
+*******************************/
+@font-face {
+   font-family:'fira sans';
+   src: url(fonts/FiraSans-Regular.ttf);
+   font-style: normal;
+   font-weight: 100;
+
+}
+
+
+@font-face {
+   font-family:'frank ruhl libre';
+   src: url(fonts/FrankRuhlLibre-Bold.ttf);
+   font-style: normal;
+   font-weight: 100;
+}
 
 body {
 
-   background-color: #E5E5E5;
-   font-family: fira sans;
-}
- @font-face {
-    font-family:'fira sans';
-    src: url(fonts/FiraSans-Regular.ttf);
-    font-style: normal;
-    font-weight: 100;
-
+    background-color: #E5E5E5;
+    font-family: fira sans;
  }
-
- 
- @font-face {
-    font-family:'frank ruhl libre';
-    src: url(fonts/FrankRuhlLibre-Bold.ttf);
-    font-style: normal;
-    font-weight: 100;
-}
- 
 h2 {font-family: frank ruhl libre;}
+
+
+
+/******************************
+        Header contact
+******************************/
+
+/*****************************
+        Header index
+******************************/
+
+
 
 
 .index-header {
@@ -132,66 +146,9 @@ font-family: frank ruhl libre ;
 
 
 /* här börjar kod för section list-container */
-
-
-.list-container {
-    
-    display: grid;
-    grid-template-columns:  1fr;
-    grid-template-rows: 25vh 25vh 25vh 25vh 25vh 25vh;
-}
-
-.list-container section {
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-}
-
-.list-heading {
-    background-color: lightblue ;
-
-
-}
-
-.step1 {
-    background-color: white ;
-
-}
-
-.step2 {
-    background-color: lightgray;
-
-}
-
-.step3 {
-    background-color: white;
-
-}
-
-.step4 {
-
-    background-color:tomato ;
-}
-
-.step5 {
-    background-color: white ;
-
-}
-
-.bottom {
-
-   background-color: gray;
-   min-height: 10vh;
-  
-
-}
-
-.Takeup {
-    background-color: darkgray;
-    min-height: 2rem;
-
-}
+/*************************************
+            INDEX MAIN
+*************************************/
 
 /* här börjar kod för main*/
 
@@ -268,408 +225,159 @@ main {
 
 main button {display:none;}
 
-/* här slutar kod för main*/
+
+/***************************************
+            INDEX LIST
+***************************************/
+
+
+.list-container {
+    
+    display: grid;
+    grid-template-columns:  1fr;
+    grid-template-rows: 25vh 25vh 25vh 25vh 25vh 25vh;
+}
+
+.list-container section {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.list-heading {
+    background-color: lightblue ;
+
+
+}
+
+.step1 {
+    background-color: white ;
+
+}
+
+.step2 {
+    background-color: lightgray;
+
+}
+
+.step3 {
+    background-color: white;
+
+}
+
+.step4 {
+
+    background-color:tomato ;
+}
+
+.step5 {
+    background-color: white ;
+
+}
+
+
+/***********************************
+       INDEX  FOOTER
+***********************************/
+
+
+.bottom {
+
+   background-color: gray;
+   min-height: 10vh;
+  
+
+}
+
+.takeup {
+    background-color: darkgray;
+    min-height: 2rem;
+
+}
+
+
 
 
 
 /****************************************
-                Media queryDenRätta
+                Media query
 ****************************************/
 @media only screen and (min-width: 769px){
 
-/* här börjar kod för main*/
 
-.card-image {
-    /*behållare för bilderna på personer i olika åldrar*/ 
-    width: 20vw;
-    height: calc(20vw/2);
-}
+/*************************************
+       INDEX  MAIN  DESKTOP
+*************************************/
 
-main {
-    background: linear-gradient(180deg,gray 50%,orange 50%);
-    /*två bakgrundsfärger*/ 
-    display: grid;
-    grid-template-rows: repeat (3, 1fr);
-    grid-template-columns: repeat (2, 1fr);}
 
-main button{
-    display:block;
-}
-
-.main-header{
-    grid-row: 1/2;
-    grid-column:1/2;
-    margin:auto;
-    padding:20%;
-}
-
-.main-text {
-    grid-row: 1/2;
-    grid-column:2/3;
-    margin:auto;
-    padding:20%;
-}
-
-.main-about {
-    grid-row: 3/4;
-    grid-column:1/3;
-}
-
-.card-container {
-    grid-row: 2/3;
-    grid-column: 1/3;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    background-color:transparent;
-}
-
-.main-header, .main-about h2 {color:white;}
-
-/* här börjar kod för section list-container */
-
-.list-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-}
-
-.list-container section {grid-row: auto;
-    grid-column: auto;
-}
-/* de lägger sig i första lediga ruta, mkt fiffigt */
-
-
-
-
-
-
-}
-
-/* här slutar kod för main*/
-
-
-
-
-
-/*
-
-CSS TILL DESKTOP
-
-body {
-
-    background-color: rgba(236, 236, 236, 0.925);
-}
-
-
-    
-.grid-container {
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: 120px 120px 120px 120px ;
-    max-width: 2000px;
-    min-width: 500px;
-    padding: 0px;
-    margin-left: 0%;
-  }
-
-.familyimage {
-    display: grid;
-    grid-template-columns: 3 / 4;
-    grid-template-rows: 3 / 4;
-    max-width: 250px;
-    max-height: 250px;
-    padding-left: 40%;
-    padding-bottom: 0%;
-    
-}
-
-.responsive {
-    width: 100%;
-    max-width: 400px;
-    height: auto;
-  }
-
-
-.item1 {
-    
-    background-color: rgb(186, 210, 223);
-    display: flexbox;
-    grid-column: 2 / 4;
-    grid-row: 1 / 6;
-}
-¨
-
-
-
-.item1 h2 {
-    font-family: 'Times new roman';
-    font-size: 40px;
-    text-align: center;
-}
-.item1 p {
-    font-family: Arial;
-    text-align: center;
-   padding-right: 20px;
-   justify-content: space-around;
-   max-width: 300px;
-   padding-left: 50px;
-
-}
-
-
-
-
-.item2 {
-
-    background-color:tomato;
-    display: flex;
-    grid-column: 4 / 6;
-    grid-row: 1 / span 2;
-
-
-}
-
-.item2 h2 {
-
-    text-align: center;
-    color: white;
-    font-size: 30px;
-}
-.item2 p{
-
-    text-align: center;
-
-}
-
-
-
-
-
-.item3 {
-    background-color: orange;
-    display: flexbox;
-    grid-column: 4 / 6;
-    grid-row: 3 / span 4;
-
-}
-
-.item3 p{
-    text-align: center;
-}
-
-.item3 h2 {
-    text-align: center;
-    color: white;
-}
-
-
-.nav-container{
-
-    
-    grid-row: 30x;
-    max-width: 1000px;
-    display: flex;
-    justify-content: space-around;
-    font-family: arial;
-    font-size: 10 px; 
-    margin: 17%;
-    margin-bottom: 0%;
-    margin-top: 0%;
-}
-
-.grid-container2 {
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: 120px 120px 120px 120px 120px 120px 120px 120px 120px 120px ;
-    max-width: 2000px;
-    min-width: 500px;
-    
-    
-  }
-
-
-.upperblock {
-
-    margin-top: 0%;
-    background-color:darkgray;
-    display: flexbox;
-    grid-column: 2 / 6;
-    grid-row: 1 / 6;
-    min-width: 500px;
-    max-width: 1210px;
-
-}
-
-.lowerblock {
-    margin-top: 0%;
-    background-color: orange;
-    display: flexbox;
-    grid-column: 2 / 6;
-    grid-row: 6 / 11;
-    margin-bottom: 0%;
-    min-width: 500px;
-
-
-}
-
-.grid-container3 {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 300px 300px ;
-    max-width: 1210px;
-    min-width: 500px;
-    padding: 0px;
-    align-content: flex-end;
-    margin: 17%;
-    margin-top: 0%;
-    margin-bottom: 0%;
-}
-
-.uppersquare1 {
-    margin-top: 0%;
-   align-content: center;
-   background-color: rgb(186, 210, 223);
-   display: grid;
-   grid-column: 1 / 1 ;
-   grid-row: 1 / 1;
-
-}
-
-.uppersquare2 {
-
-    margin-top: 0%;
-    background-color: white;
-    display: grid;
-    grid-column: 2 / 2 ;
-    grid-row: 1 / 1;
- 
- }
-
- .uppersquare3 {
-
-    margin-top: 0%;
-    background-color:rgba(236, 236, 236, 0.925);
-    display: grid;
-    grid-column: 3 / 3 ;
-    grid-row: 1 / 1;
- 
- }
-
- .lowersquare1 {
-
-    background-color: white;
-    display: grid;
-    grid-column: 1 / 1 ;
-    grid-row: 2 / 2;
-
- }
-
-
-
- .lowersquare2 {
-    background-color: tomato;
-    display: grid;
-    grid-column: 2 / 2 ;
-    grid-row: 2 / 2;
- 
-
-    
-}
-
-
-.lowersquare3 {
-
-
-    background-color: white;
-    display: grid;
-    grid-column: 3 / 3 ;
-    grid-row: 2 / 2;
- 
-    
-}
-
-.bottomnavbar{
-    display: flex;
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: 100px ;
-    max-width: 1210px;
-    min-width: 500px;
-    padding: 0px;
-    margin: 17%;
-    margin-top: 0%;
-    margin-bottom: 0%;
-    background-color: rgb(145, 145, 145);
-}
-
-.bottomnavbar p {
-    margin-left: 20%;
-    text-align: center;
-    max-width: 870px;
-    min-width: 500px;
-}
-
-.grid-container4{
-
-    display: grid;
-    grid-template-columns: 'footerleft footerright' ;
-    grid-template-rows: 400px ;
-    max-width: 81210px;
-    min-width: 500px;
-    padding: 0px;
-    margin: 17%;
-    margin-top: 0%;
-    margin-bottom: 0%;
-    align-content: center;
-    
-
-
-}
-
-
-
-.footerleft {
-
-    display: grid;
-    padding: 0px;
-    margin: 0%;
-    margin-left: 0%;
-    margin-top: 0%;
-    margin-bottom: 0%;
-    background-color: rgb(80, 80, 80);
-}
-.footerright {
-   
-    display: grid;
-    padding: 0px;
-    margin: 0%;
-    margin-top: 0%;
-    margin-bottom: 0%;
-    margin-right: 10%;
-    background-color: rgb(80, 80, 80);
-
-}
-
-
-
-@media only screen and (max-width: 600px) {
-   
-    body {
-
-        background-color: rgba(60, 17, 117, 0.925);
-
+    .card-image {
+        /*behållare för bilderna på personer i olika åldrar*/ 
+        width: 20vw;
+        height: calc(20vw/2);
     }
-    
 
+    .index-main {
+        background: linear-gradient(180deg,gray 50%,orange 50%);
+        /*två bakgrundsfärger*/ 
+        display: grid;
+        grid-template-rows: repeat (3, 1fr);
+        grid-template-columns: repeat (2, 1fr);
+    }
 
+    .index-main button{
+        display:block;
+    }
 
-  } 
-  
-HTML
+    .main-header{
+        grid-row: 1/2;
+        grid-column:1/2;
+        margin:auto;
+        padding:20%;
+    }
 
+    .main-text {
+        grid-row: 1/2;
+        grid-column:2/3;
+        margin:auto;
+        padding:20%;
+    }
 
+    .main-about {
+        grid-row: 3/4;
+        grid-column:1/3;
+    }
 
-}*/
+    .card-container {
+        grid-row: 2/3;
+        grid-column: 1/3;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        background-color:transparent;
+    }
+
+    .main-header, .main-about h2 {
+        color:white;
+    }
+
+/******************************************
+        INDEX DESKTOP LIST
+******************************************/
+
+    .list-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+    }
+
+    .list-container section {grid-row: auto;
+        grid-column: auto;
+    }
+   
 }
+
+
+
 
