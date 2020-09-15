@@ -46,6 +46,20 @@ li a, li p, label, address {
     font-size: 12px;
     line-height: 24px;
 }
+<<<<<<< HEAD
+=======
+.button-design {
+    background-color: white;
+    width: 150px;
+    height: 35px;
+    border: none;
+    border-radius: 50px;
+    box-shadow: 0px 2px rgb(80, 80 ,80);
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: 700;
+}
+>>>>>>> 25c1e7a274d39b929851a84967604b2ddfab60bd
 .color-1 {
     background-color: rgb(199, 221, 234);
 }
@@ -76,6 +90,21 @@ li a, li p, label, address {
     max-height: 20%;
     max-width: 20%;
 }
+.index-top a {
+    color: white;
+    text-decoration: none;
+    font-family: frank ruhl, serif;
+    font-size: 35px;
+    font-weight: 900;
+    letter-spacing: -1px;
+}
+.header-right-down-con p, .header-right-up-con p {
+    font-size: 12px;
+}
+.heading-index {
+    color: black;
+    text-align: left;
+}
 .headingtext {
     color: black;
 }
@@ -84,6 +113,7 @@ li a, li p, label, address {
 }
 
 .header-left-con {
+<<<<<<< HEAD
 
 }
 .header-right-up-con {
@@ -93,6 +123,34 @@ li a, li p, label, address {
 
 }
 
+=======
+    display: grid;
+    grid-template-rows: repeat(4, auto);
+}
+.img-container {
+    max-width: 300px;
+    justify-self: end;
+}
+.img-family {
+    max-width: 100%;
+}
+.header-right-up-con {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20%;
+}
+.header-right-down-con {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20%;
+}
+
+
+>>>>>>> 25c1e7a274d39b929851a84967604b2ddfab60bd
 /*******************************************
                 Main
 *******************************************/
@@ -131,16 +189,6 @@ input, textarea {
 }
 .submitbtn {
     justify-self: center;
-    background-color: white;
-    width: 150px;
-    height: 35px;
-    border: none;
-    border-radius: 50px;
-    box-shadow: 0px 2px rgb(80, 80 ,80);
-    text-transform: uppercase;
-    font-size: 10px;
-    font-weight: 700;
-    
 }
 .mapcontainer {
     background-color: rgb(80, 80 ,80);
