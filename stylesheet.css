@@ -1,3 +1,47 @@
+.card-wrapper-2 {
+    display: grid;
+   
+    padding: 0;
+    grid-template-columns: 1rem auto 1rem;
+    grid-template-rows: 3rem auto;
+    margin: 10px;
+}
+.card-2 {
+background-color: white;
+border-radius: 1rem;
+grid-row: 1 / 3;
+grid-column: 2;
+}
+.card-content-2 {
+grid: image;
+text-align: center;
+}
+.card-image-2 {
+background-color: aqua;
+border-radius: 1rem;
+max-height: 8rem;
+overflow: hidden;
+display: grid;
+grid-area: image;
+justify-content: center;
+padding-top: 1rem;
+}
+.image-size {
+    max-height: 35%;
+}
+.card-space {
+background-color: white;
+border-radius: 1rem;
+grid-row: 2;
+grid-column: 1 / 4;
+}
+.text-margin {
+    margin-bottom: 2rem;
+}
+
+
+
+
 /*******************************
        INDEX  Page Rules
 *******************************/
@@ -56,6 +100,7 @@ h4 {
 h5 {
     font-family:frank ruhl, serif;
     font-size: 1.25rem;
+    padding: 1.25rem;
 }
 
 p {
@@ -307,6 +352,8 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+   
+    
     
 
 }
@@ -355,6 +402,10 @@ main {
 .main-header{
     padding: 10% 10% 0 10%;
     /*ingen padding bottom annars blir det för långt avstånd under rubriken*/
+}
+
+.main-button {
+    margin-top: 4rem;
 }
     
 .main-text{
@@ -507,6 +558,7 @@ address {
     .intro-text{
         grid-row: 1 / 2;
         grid-column: 1 / 3;
+        padding: 0 100px;
        
     }
 
@@ -514,6 +566,7 @@ address {
         grid-row: 2 / 2;
         grid-column: 1 / 1;
         margin-top: 4rem;
+        margin-left: 100px;
     }
     .image-family{
 
@@ -605,8 +658,7 @@ address {
 
     .card-image {
         /*behållare för bilderna på personer i olika åldrar*/ 
-        width: 20vw;
-        height: calc(20vw/2);
+        width: 90%;
     }
 
     .index-main {
@@ -615,6 +667,8 @@ address {
         display: grid;
         grid-template-rows: repeat (3, 1fr);
         grid-template-columns: repeat (2, 1fr);
+        padding: 0 100px;
+        max-width: 960px;
     }
 
     .index-main button{
@@ -624,20 +678,21 @@ address {
     .main-header{
         grid-row: 1/2;
         grid-column:1/2;
-        margin:auto;
-        padding:20%;
+        padding:100px 0 ;
     }
 
     .main-text {
         grid-row: 1/2;
         grid-column:2/3;
-        margin:auto;
-        padding:20%;
+        padding:100px 0 100px 100px;
+
     }
 
     .main-about {
         grid-row: 3/4;
         grid-column:1/3;
+
+
     }
 
     .card-container {
@@ -648,6 +703,7 @@ address {
         justify-content: center;
         align-items: center;
         background-color:transparent;
+        max-width: 960px;
     }
 
     /************************************
