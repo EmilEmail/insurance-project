@@ -1,14 +1,13 @@
 /*******************************
        INDEX  Page Rules
 *******************************/
+
 @font-face {
    font-family:'fira sans';
    src: url(fonts/FiraSans-Regular.ttf);
    font-style: normal;
    font-weight: 100;
-
 }
-
 
 @font-face {
    font-family:'frank ruhl libre';
@@ -16,6 +15,7 @@
    font-style: normal;
    font-weight: 100;
 }
+
 * {
     margin: 0;
 }
@@ -23,43 +23,39 @@ body {
 
     background-color: #E5E5E5;
     font-family: fira sans;
- }
+}
 
-
- h2 {
+h2 {
     display: block;
     width: 100%;
-    color: white;
+    color: white;   
     font-family: frank ruhl, serif;
-    font-size: 48px;
+    font-size: 3rem;
     font-weight: 900;
     letter-spacing: -3px;
     text-align: center;
 }
 
 h3 {
-
-font-family: frank ruhl, serif;
-color: white;
-font-size: 30px;
-text-align: left;
-line-height: 28px;
-
+    font-family: frank ruhl, serif;
+    color: white;
+    font-size: 1.9rem;
+    text-align: left;
+    line-height: 1.75rem;
 }
 
-
-h4{
+h4 {
     font-family:frank ruhl, serif;
     color: white;
-    font-size: 25px;
+    font-size: 1.5rem;
     font-weight: 900;
     text-align: center;
 
 }
 
-h5{
+h5 {
     font-family:frank ruhl, serif;
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 
 p {
@@ -67,16 +63,12 @@ p {
 }
 
 .question-p {
-    font-size: 12px ;
+    font-size: 0.75rem ;
     text-align: center;
 }
 
-
-
-
 .font-black {
     color:black;
-
 }
 /*************************************
                CONTACT Page Rules
@@ -94,10 +86,12 @@ p {
 body {
     font-family: lira sans, sans-serif;
 }
+
 .wrapper {
     max-width: 960px;
     margin: auto;
 }
+
 .flexcenter {
     display: flex;
     flex-direction: column;
@@ -107,62 +101,58 @@ body {
 .blockpadding {
     padding-top: 10%;
 }
+
 .topmargin {
     padding-top: 20px;
 }
 
-
 li a, li p, label, address {
-    font-size: 12px;
-    line-height: 24px;
+    font-size: 0.75rem;
+    line-height: 1.5rem;
+    font-weight: 900;
 }
+
 .button-design {
     background-color: white;
-    width: 150px;
-    height: 35px;
+    width: 9.5rem;
+    height: 2.2rem;
     border: none;
-    border-radius: 50px;
-    box-shadow: 0px 2px rgb(80, 80 ,80);
+    border-radius: 2.2rem;
+    box-shadow: 0 2px rgb(80, 80 ,80);
     text-transform: uppercase;
-    font-size: 10px;
+    font-size: 0.6rem;
     font-weight: 700;
 }
 .color-1 {
     background-color: rgb(199, 221, 234);
 }
+
 .color-2 {
     background-color: rgb(241, 121, 73);
 }
+
 .color-3 {
     background-color: rgb(250, 177, 49);
 }
+
 .color-4 {
     background-color: rgb(169, 161, 158);
 }
+
 .color-5 {
     background-color: rgb(235, 235, 235);
 }
-
-
-
-
 
 /*****************************
         Header index
 ******************************/
 
-
-
-
 .index-header {
-
     display: grid;
     grid-template-columns:  1fr;
     grid-template-rows: auto auto auto;
-    padding: 0px;
-    max-width: 100%;
-    min-width: 100%;
-
+    padding: 0;
+    width: 100%;
 }
 
 .intro-container {
@@ -172,39 +162,27 @@ li a, li p, label, address {
     grid-row: 1 / 1;
 }
 
-
-
-
-.intro-container h2  {
-font-family: frank ruhl libre ;
- margin-top: 10%;
- justify-content: space-around;
- font-size: 45px;
-
- 
- 
+.intro-container h2 {
+    font-family: frank ruhl libre ;
+    margin-top: 10%;
+    justify-content: space-around;
 }
 
- .intro-container p{
+.intro-container p {
     font-family: fira sans ;
-    font-size: 14px;
     margin-top: 10px;
-   
     padding: 10px;
      
- }
- .price {
-
+}
+.price {
     color: white;
- }
+}
 
  
  .responsive {
-     
-     width: 100%;
-     max-width: 300px;
-     height: auto;
-     padding-bottom: 0%;
+    max-width: 300px;
+    height: auto;
+    padding-bottom: 0;
      
     }
     
@@ -214,11 +192,6 @@ font-family: frank ruhl libre ;
         background-color: orange;
         display: flex;
         grid-row: 3 / 3 ;
-    }
-    
-
-    .learn-container h3{
-        
     }
 
 .join-container {
@@ -231,18 +204,16 @@ font-family: frank ruhl libre ;
 
 
 
-.join-container h3{
-
-}
-
-
-
 
 /*******************************************
-                Heading
+                Contact Heading
 *******************************************/
+    .contact-header{
+    background-color: rgb(199, 221, 234);
+    padding-top: 40px;
+}
 
-.top {
+/* .contact-header{
     background-color: rgb(199, 221, 234);
     padding-top: 40px;
 }
@@ -323,7 +294,7 @@ font-family: frank ruhl libre ;
     grid-row: 2;
     text-align: center;
     background-color: white;
-}
+} */
 
 
 
@@ -331,16 +302,12 @@ font-family: frank ruhl libre ;
             INDEX MAIN
 *************************************/
 
-/* här börjar kod för main*/
-
 main {
     background-color:rgb(169, 161, 158)}
 
 .card-container {
-    /*behållare för de tre lådorna med bilder på barn vuxen gammal*/
     display: flex;
     flex-direction: column;
-    /*ändra till row i desktop*/
     justify-content: center;
     align-items: center;
     
@@ -411,28 +378,19 @@ main button {display:none;}
 /*******************************************
               CONTACT  Main
 *******************************************/
-.main {
-
-}
-.main-up {
-
-}
-.main-down {
-
-}
 .formcontainer {
     padding-bottom: 8%;
 }
 .contactform {
     display: grid;
     color: white;
-    width: 200px;
+    width: 12.5rem;
 }
 input {
-    height: 35px;
+    height: 2.2rem;
 }
 textarea {
-    height: 150px;
+    height: 9.5rem;
     resize: none;
     padding: 10px;
 }
@@ -441,7 +399,7 @@ input, textarea {
     border: none;
     border-radius: 2px;
     font-family: lira sans, sans-serif;
-    font-size: 12px;
+    font-size: 0.75rem;
 
 }
 .submitbtn {
@@ -466,17 +424,13 @@ address {
     height: 100px;
 }
 
-
-
 /***************************************
             INDEX LIST
 ***************************************/
 
-
 .list-container {
-    
     display: grid;
-    grid-template-columns:  1fr;
+    grid-template-columns: 1fr;
     grid-template-rows: 25vh 25vh 25vh 25vh 25vh 25vh;
 }
 
@@ -488,34 +442,27 @@ address {
 }
 
 .list-heading {
-    background-color: lightblue ;
-
-
+    background-color: lightblue;
 }
 
 .step1 {
     background-color: white ;
-
 }
 
 .step2 {
     background-color: lightgray;
-
 }
 
 .step3 {
     background-color: white;
-
 }
 
 .step4 {
-
-    background-color:tomato ;
+    background-color:tomato;
 }
 
 .step5 {
-    background-color: white ;
-
+    background-color: white;
 }
 
 
@@ -523,44 +470,30 @@ address {
        INDEX  FOOTER
 ***********************************/
 
-
-.bottom {
-
-   background-color: gray;
-   min-height: 10vh;
-  
-
-}
-
 .takeup {
     background-color: darkgray;
     min-height: 2rem;
-
 }
-
-
-
-
 
 /****************************************
                 Media query
 ****************************************/
-@media only screen and (min-width: 769px){
+@media only screen and (min-width: 769px) {
 
- /*************************************
+    /*************************************
                 CONTACT Page Rules
     *************************************/
 
     .flexcenter {
         flex-direction: row;
     }
- /************************************
+    /************************************
            CONTACT Heading desktop
-    *********************************/
+    *************************************/
     .heading {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: 360px;
+        grid-template-rows: 22.5rem;
         overflow: hidden;
     }
     .headingtext {
@@ -576,7 +509,7 @@ address {
     .navbar {
         display: flex;
         background-color: white;
-        height: 68px;
+        height: 4.25rem;
         white-space: nowrap;
     }
     
@@ -596,10 +529,12 @@ address {
     .activepage {
         color: black;
     }
+
     a {
         text-decoration: none;
         color: rgb(169, 161, 158);
     }
+
     a:hover {
         color: black;
     }
@@ -656,9 +591,7 @@ address {
         background-color:transparent;
     }
 
-
-
-/************************************
+    /************************************
            CONTACT Main Desktop
     *************************************/
     .formcontainer {
@@ -666,7 +599,7 @@ address {
         grid-template-columns: repeat(2, 1fr);
     }
     .contactform {
-        width: 300px;
+        width: 19rem;
     }
     .submitbtn {
         justify-self: right;
@@ -674,15 +607,15 @@ address {
 
     .header-container {
         align-self: flex-start;
-        padding: 0px 60px;
+        padding: 0 60px;
     }
     .header-container > h2 {
         text-align: left;
     }
 
-/******************************************
+    /**********************************
         INDEX DESKTOP LIST
-******************************************/
+    ***********************************/
 
     .list-container {
         display: grid;
@@ -695,19 +628,16 @@ address {
     }
 
     
-/**********************************
+    /**********************************
            CONTACT map section
-    ********************************/
-    .mapcontainer {
-        
-    }
+    ***********************************/
     .card {
         margin: 3% 0% 17% 8%;
         padding-bottom: 70px;
     }
 
 
-}
+} 
 
    
 
