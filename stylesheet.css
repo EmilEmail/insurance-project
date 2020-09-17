@@ -27,6 +27,10 @@ body {
     font-family: fira sans;
 }
 
+.bottom {
+    height: 100px;
+}
+
 h2 {
     color: white;
     font-family: frank ruhl, serif;
@@ -107,10 +111,7 @@ body {
     padding-top: 20px;
 }
 
-li a,
-li p,
-label,
-address {
+li a, li p, label, address {
     font-size: 0.75rem;
     line-height: 1.5rem;
     font-weight: 900;
@@ -118,7 +119,7 @@ address {
 
 .button-design {
     background-color: white;
-    width: 9.5rem;
+    width: 7rem;
     height: 2.2rem;
     border: none;
     border-radius: 2.2rem;
@@ -326,11 +327,10 @@ main button {
     justify-self: center;
 }
 
-
-
 /*******************************************
               Main Contact
 *******************************************/
+
 .formcontainer {
     padding-bottom: 8%;
 }
@@ -357,7 +357,6 @@ input, textarea {
     border-radius: 2px;
     font-family: lira sans, sans-serif;
     font-size: 0.75rem;
-
 }
 
 .submitbtn {
@@ -379,17 +378,11 @@ address {
     font-style: normal;
 }
 
-.bottom {
-    height: 100px;
-}
-
 /***************************************
             List Index
 ***************************************/
 
 .numbers {
-
-
     grid-row: 1;
     grid-column: 1;
     color: lightgray;
@@ -403,8 +396,6 @@ address {
     align-self: center;
     justify-self: center;
     text-align: center;
-
-
 }
 
 .list-text {
@@ -423,11 +414,9 @@ address {
     padding: 10px;
 }
 
-
 /***********************************
        Footer Index
 ***********************************/
-
 
 .takeup-button {
     min-height: 2rem;
@@ -438,23 +427,15 @@ address {
     padding: 10px;
 }
 
-
 /****************************************
-                Media query
+                Media Query
 ****************************************/
 @media only screen and (min-width: 769px) {
 
 
-    .main-cards-con {
-        flex-direction: row;
-    }
-
-    .main-card {
-        margin: 10px;
-    }
 
     /*************************************
-                Page Rules  Contact
+            Page Rules  Contact
     *************************************/
 
     .flexcenter {
@@ -462,7 +443,7 @@ address {
     }
 
     /************************************
-        Header Index DESKTOP
+            Header Index Desktop
     ************************************/
 
     .index-header {
@@ -516,7 +497,7 @@ address {
     }
 
     /************************************
-           Heading Contact desktop
+           Heading Contact Desktop
     *************************************/
     .heading {
         display: grid;
@@ -543,7 +524,6 @@ address {
         display: flex;
         height: 4.25rem;
         white-space: nowrap;
-
     }
 
     .navigations {
@@ -569,9 +549,16 @@ address {
     }
 
     /*************************************
-            Main Index DESKTOP
+             Main Index DESKTOP
     *************************************/
 
+    .main-cards-con {
+        flex-direction: row;
+    }
+
+    .main-card {
+        margin: 10px;
+    }
 
     .card-image {
         width: 90%;
@@ -600,14 +587,11 @@ address {
         grid-row: 1/2;
         grid-column: 2/3;
         padding: 100px 0 100px 100px;
-
     }
 
     .main-about {
         grid-row: 3/4;
         grid-column: 1/3;
-
-
     }
 
     .card-container {
@@ -618,10 +602,10 @@ address {
         align-items: center;
     }
 
-
     /************************************
-           Main Contact Desktop
+            Main Contact Desktop
     *************************************/
+
     .formcontainer {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -645,7 +629,7 @@ address {
     }
 
     /**********************************
-       List Index Desktop
+            List Index Desktop
     ***********************************/
 
     .list-container {
@@ -654,15 +638,11 @@ address {
         grid-template-rows: repeat(2, 1fr);
     }
 
-
-
     /**********************************
-         map section Contact
+        Map Section Contact Desktop
     ***********************************/
     .card {
         margin: 3% 0% 17% 8%;
         padding-bottom: 70px;
     }
-
-
 }
