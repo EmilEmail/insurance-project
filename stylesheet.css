@@ -285,7 +285,6 @@ main button {
     grid-column: 2;
     grid-row: 1 / span 3;
     display: grid;
-    grid-template-columns: 20px auto 20px;
     overflow: hidden;
     justify-content: center;
     border-radius: 5px;
@@ -294,14 +293,12 @@ main button {
 .childpicture {
     padding-top: 40px;
     max-height: 200px;
-    grid-column: 2;
     justify-self: center;
 }
 
 .adultpicture {
     padding-top: 40px;
     max-height: 500px;
-    grid-column: 2;
     justify-self: center;
 }
 
