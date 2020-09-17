@@ -24,8 +24,6 @@
 }
 
 body {
-
-    background-color: #E5E5E5;
     font-family: fira sans;
 }
 
@@ -154,36 +152,31 @@ address {
     background-color: rgb(235, 235, 235);
 }
 
+.color-6 {
+    background-color: rgb(119, 117, 116);
+}
+
+.color-7 {
+    background-color: white;
+}
+
 /*****************************
         Header index
 ******************************/
 
-
 .index-header {
-
     padding: 0;
     width: 100%;
 }
 
-.intro-container {
-
-    background-color: #C7DDEA;
-
-}
-
-
 .intro-text {
-
     padding: 40px 20px;
-
 }
 
 .intro-container h2 {
     font-family: frank ruhl libre;
     text-align: left;
-
 }
-
 
 .intro-container p {
     font-family: fira sans;
@@ -194,10 +187,8 @@ address {
     color: white;
 }
 
-
 .intro-button {
     margin: 20px 20px 40px 20px;
-
 }
 
 .image-family {
@@ -210,7 +201,6 @@ address {
 .learn-container {
     padding: 75px 0;
     flex-direction: column;
-    background-color: orange;
     display: flex;
     grid-row: 3 / 3;
 }
@@ -218,7 +208,6 @@ address {
 .join-container {
     padding: 75px 0;
     flex-direction: column;
-    background-color: tomato;
     display: flex;
     grid-row: 2 / 2;
 }
@@ -232,7 +221,6 @@ address {
                 Header Contact
 *******************************************/
 .contact-header {
-    background-color: rgb(199, 221, 234);
     padding-top: 40px;
 }
 
@@ -240,7 +228,6 @@ address {
     align-self: center;
     max-height: 25%;
     max-width: 25%;
-
 }
 
 
@@ -248,10 +235,6 @@ address {
 /*************************************
            Main Index
 *************************************/
-
-main {
-    background-color: rgb(169, 161, 158)
-}
 
 .main-header {
     padding: 10%;
@@ -261,8 +244,7 @@ main {
 
 
 .main-header {
-    padding: 10% 10% 10% 10%;
-    /*ingen padding bottom annars blir det för långt avstånd under rubriken*/
+    padding: 10%;
 }
 
 .main-button {
@@ -271,17 +253,13 @@ main {
 
 .main-text {
     padding: 0 10% 10% 10%;
-    /*ingen padding top */
 }
 
 .main-text p {
-
     font-size: 14px;
 }
 
-
 .main-about {
-    background-color: orange;
     padding: 10%;
 }
 
@@ -289,18 +267,14 @@ main button {
     display: none;
 }
 
-
-
 .card-container {
     display: flex;
-
 }
 
 .main-cards-con {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-
 }
 
 .main-card {
@@ -383,8 +357,7 @@ textarea {
     padding: 10px;
 }
 
-input,
-textarea {
+input, textarea {
     margin-bottom: 5%;
     border: none;
     border-radius: 2px;
@@ -398,13 +371,11 @@ textarea {
 }
 
 .mapcontainer {
-    background-color: rgb(80, 80, 80);
     background-image: url(img/map.jpg);
     padding: 0;
 }
 
 .card {
-    background-color: #fab131;
     padding: 20px;
     margin: 15%;
 }
@@ -415,7 +386,6 @@ address {
 }
 
 .bottom {
-    background-color: rgb(119, 117, 116);
     height: 100px;
 }
 
@@ -450,47 +420,13 @@ address {
     margin: 0 50px;
     grid-row: 1;
     grid-column: 1;
-
-
-
 }
 
-
 .list-container>section {
-
     display: grid;
     grid-template-rows: auto;
     height: 200px;
     padding: 10px;
-}
-
-.list-heading {
-
-    background-color: lightblue;
-
-
-}
-
-.step1 {
-    background-color: white;
-
-}
-
-.step2 {
-    background-color: lightgray;
-}
-
-.step3 {
-    background-color: white;
-
-}
-
-.step4 {
-    background-color: tomato;
-}
-
-.step5 {
-    background-color: white;
 }
 
 
@@ -500,7 +436,6 @@ address {
 
 
 .takeup-button {
-    background-color: darkgray;
     min-height: 2rem;
     text-align: center;
     align-self: center;
@@ -664,7 +599,7 @@ address {
     }
 
     .index-main {
-        background: linear-gradient(180deg, gray 50%, orange 50%);
+        background: linear-gradient(180deg, rgb(119, 117, 116) 50%,rgb(250, 177, 49) 50%);
         display: grid;
         grid-template-rows: repeat(3, 1fr);
         grid-template-columns: repeat(2, 1fr);
