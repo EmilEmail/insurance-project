@@ -147,8 +147,8 @@ body {
 }
 
 h2 {
-    display: block;
-    width: 100%;
+    
+    
     color: white;
     font-family: frank ruhl, serif;
     font-size: 3rem;
@@ -289,7 +289,7 @@ address {
 
 .intro-container h2 {
     font-family: frank ruhl libre;
-    margin-top: 10%;
+   
     justify-content: space-around;
 }
 
@@ -579,25 +579,57 @@ address {
             INDEX LIST
 ***************************************/
 
-.list-container {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 25vh 25vh 25vh 25vh 25vh 25vh;
+.numbers {
+    
+    
+    grid-row: 1;
+    grid-column: 1;
+    color: lightgray;
+    font-size: 2.5rem;
+
+    
 }
 
-.list-container section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
+.list-heading h2{
+    margin: 50px;
+    color: black;
+    align-self: center;
+    justify-self:center;
+    text-align: center;
+   
+
+}
+
+.list-text {
+    align-self: center;
+    justify-self:center;
+    text-align: center;
+    grid-row: 1;
+    grid-column: 1;
+    
+    
+
+}
+
+
+.list-container > section {
+    
+    display: grid;
+    grid-template-rows: auto;
+    height: 300px;
+    padding: 10px;
 }
 
 .list-heading {
+
     background-color: lightblue;
+    
+   
 }
 
 .step1 {
     background-color: white;
+    
 }
 
 .step2 {
