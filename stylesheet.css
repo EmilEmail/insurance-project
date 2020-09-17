@@ -1,121 +1,4 @@
 
-.card-container {
-    display: flex;
-    
-}
-.main-cards-con {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    
-}
-
-.main-card {
-    display: grid;
-    grid-template-columns:  20px 1fr 20px ;
-    grid-template-rows: 20px 100px 100px 50px auto;
-    margin: 10px 50px 10px 50px;
-    
-    
-}
-.white-box {
-    background-color: white;
-    grid-column: 1 / span 3;
-    grid-row: 2 / span 4;
-    border-radius: 5px;
-
-}
-.card-text {
-    grid-column: 2;
-    grid-row: 4 / span 2;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-    border-radius: 5px;
-    margin: 10px;
-}
-.text {
-text-align: center;
-}
-.card-img {
-    grid-column: 2;
-    grid-row: 1 / span 3;
-    display: grid;
-    grid-template-columns: 20px auto 20px;
-    overflow: hidden;
-    justify-content: center;
-    border-radius: 5px;
-}
-.childpicture {
-    padding-top: 40px;
-    max-height: 200px;
-    grid-column: 2;
-    justify-self: center;
-}
-.adultpicture {
-    padding-top: 40px;
-    max-height: 500px;
-    grid-column: 2;
-    justify-self: center;
-}
-
-/*********Emils slut**********/
-
-/* .card-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background-color:transparent;
-    padding: 100px 0;
-    max-width: 760px;
-}
-.card-wrapper-2 {
-    display: grid;
-    padding: 0;
-    grid-template-columns: 1rem auto 1rem;
-    grid-template-rows: 3rem auto;
-    margin: 10px;
-}
-
-.card-2 {
-    background-color: white;
-    border-radius: 1rem;
-    grid-row: 1 / 3;
-    grid-column: 2;
-}
-
-.card-content-2 {
-    grid: image;
-    text-align: center;
-}
-
-.card-image-2 {
-    background-color: aqua;
-    border-radius: 1rem;
-    max-height: 8rem;
-    overflow: hidden;
-    display: grid;
-    grid-area: image;
-    justify-content: center;
-    padding-top: 1rem;
-}
-
-.image-size {
-    max-height: 35%;
-}
-
-.card-space {
-    background-color: white;
-    border-radius: 1rem;
-    grid-row: 2;
-    grid-column: 1 / 4;
-}
-
-.text-margin {
-    margin-bottom: 2rem;
-} */
-
-
 
 
 /*******************************
@@ -147,8 +30,8 @@ body {
 }
 
 h2 {
-    
-    
+
+
     color: white;
     font-family: frank ruhl, serif;
     font-size: 3rem;
@@ -285,17 +168,17 @@ address {
 .intro-container {
 
     background-color: #C7DDEA;
-    
+
 }
 
 
 .intro-text {
-   
-    padding: 40px 20px ;
+
+    padding: 40px 20px;
 
 }
 
-.intro-container  h2 {
+.intro-container h2 {
     font-family: frank ruhl libre;
     text-align: left;
 
@@ -346,158 +229,31 @@ address {
 
 
 /*******************************************
-                Contact Heading
+                Header Contact
 *******************************************/
 .contact-header {
     background-color: rgb(199, 221, 234);
     padding-top: 40px;
 }
 
-/* .contact-header{
-    background-color: rgb(199, 221, 234);
-    padding-top: 40px;
-}
 .toppicture {
-    max-height: 20%;
-    max-width: 20%;
-}
-.index-top a {
-    color: white;
-    text-decoration: none;
-    font-family: frank ruhl, serif;
-    font-size: 35px;
-    font-weight: 900;
-    letter-spacing: -1px;
-}
-.header-right-down-con p, .header-right-up-con p {
-    font-size: 12px;
-}
-.heading-index {
-    color: black;
-    text-align: left;
-}
-.headingtext {
-    color: black;
-}
-.navbar {
-    display: none;
-}
+    align-self: center;
+    max-height: 25%;
+    max-width: 25%;
 
-.header-left-con {
-    display: grid;
-    grid-template-rows: repeat(4, auto);
 }
-.img-container {
-    max-width: 300px;
-    justify-self: end;
-}
-.img-family {
-    max-width: 100%;
-}
-.header-right-up-con {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 20%;
-}
-.header-right-down-con {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 20%;
-}
-.main-cards {
-    
-}
-
-
-.card-content {
-    display: grid;
-    grid-template-rows: 40px 200px;
-    grid-template-columns: 100%;
-    padding: 40px;
-}
-.card-img {
-    display: flex;
-    grid-row: 1 / 3;
-    max-height: 200px;
-    overflow: hidden;
-    justify-content: center;
-    border-radius: 20px;
-}
-.card-img-size {
-    height: 250px;
-}
-.card-text {
-    grid-row: 2;
-    text-align: center;
-    background-color: white;
-} */
 
 
 
 /*************************************
-            INDEX MAIN
+           Main Index
 *************************************/
 
 main {
     background-color: rgb(169, 161, 158)
 }
 
-/* .card-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center; 
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: auto;
-} */
-
-/* .card-image {
-    behållare för bilderna på personer i olika åldrar
-    overflow: hidden; 
-    width: 70vw;
-    height: calc(70vw/2);
-    /*kanske en dum storlek, behöver ändras til desktop
-    margin: auto;
-    centrerar bild-behållaren
-    border-radius: 10px;
-    /*gör hörnen rundade
-    position: relative;
-    top: -4rem;
-    /*gör så att bildbehållaren flyttas uppåt, kanske dålig lösning
-}
-
-.adult {
-    background: orange url("img/adult.png") no-repeat center 10px;
-    /* 10px avstånd till toppen så inte huvudet slår i taket 
-    background-size: 30% auto;
-    /*bilden tar upp en 30% av behållarens bredd och klipps på höjden pga overflow hidden
-}
-
-.child {
-    background: lightskyblue url("img/child.png") no-repeat center 20px;
-    background-size: 30% auto;
-}
-
-.old {
-    background: coral url("img/old.png") no-repeat center 20px;
-    background-size: 45% auto;
-    /*old fart är lite bredare än de andra
-}
-
-.card {
-    background-color: white;
-    margin: 2em;
-    text-align: center;
-    padding: 10px;
-    border-radius: 10px;
-} */
-
-.main-header{
+.main-header {
     padding: 10%;
     align-items: center;
 }
@@ -535,8 +291,77 @@ main button {
 
 
 
+.card-container {
+    display: flex;
+
+}
+
+.main-cards-con {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.main-card {
+    display: grid;
+    grid-template-columns: 20px 1fr 20px;
+    grid-template-rows: 20px 100px 100px 50px auto;
+    margin: 10px 50px 10px 50px;
+
+
+}
+
+.white-box {
+    background-color: white;
+    grid-column: 1 / span 3;
+    grid-row: 2 / span 4;
+    border-radius: 5px;
+
+}
+
+.card-text {
+    grid-column: 2;
+    grid-row: 4 / span 2;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.text {
+    text-align: center;
+}
+
+.card-img {
+    grid-column: 2;
+    grid-row: 1 / span 3;
+    display: grid;
+    grid-template-columns: 20px auto 20px;
+    overflow: hidden;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.childpicture {
+    padding-top: 40px;
+    max-height: 200px;
+    grid-column: 2;
+    justify-self: center;
+}
+
+.adultpicture {
+    padding-top: 40px;
+    max-height: 500px;
+    grid-column: 2;
+    justify-self: center;
+}
+
+
+
 /*******************************************
-              CONTACT  Main
+              Main Contact
 *******************************************/
 .formcontainer {
     padding-bottom: 8%;
@@ -595,45 +420,44 @@ address {
 }
 
 /***************************************
-            INDEX LIST
+            List Index
 ***************************************/
 
 .numbers {
-    
-    
+
+
     grid-row: 1;
     grid-column: 1;
     color: lightgray;
     font-size: 2.5rem;
     color: rgba(0, 0, 0, 0.4)
-    
 }
 
-.list-heading h2{
+.list-heading h2 {
     margin: 50px;
     color: black;
     align-self: center;
-    justify-self:center;
+    justify-self: center;
     text-align: center;
-   
+
 
 }
 
 .list-text {
     align-self: center;
-    justify-self:center;
+    justify-self: center;
     text-align: center;
     margin: 0 50px;
     grid-row: 1;
     grid-column: 1;
-    
-    
+
+
 
 }
 
 
-.list-container > section {
-    
+.list-container>section {
+
     display: grid;
     grid-template-rows: auto;
     height: 200px;
@@ -643,13 +467,13 @@ address {
 .list-heading {
 
     background-color: lightblue;
-    
-   
+
+
 }
 
 .step1 {
     background-color: white;
-    
+
 }
 
 .step2 {
@@ -658,7 +482,7 @@ address {
 
 .step3 {
     background-color: white;
-    
+
 }
 
 .step4 {
@@ -671,12 +495,10 @@ address {
 
 
 /***********************************
-       INDEX  FOOTER
+       Footer Index
 ***********************************/
 
-.takeup {
- 
-}
+
 .takeup-button {
     background-color: darkgray;
     min-height: 2rem;
@@ -694,19 +516,16 @@ address {
 @media only screen and (min-width: 769px) {
 
 
-    /*********************Emil test*******************/
     .main-cards-con {
         flex-direction: row;
     }
+
     .main-card {
-        
         margin: 10px;
-        
-        
     }
 
     /*************************************
-                CONTACT Page Rules
+                Page Rules  Contact
     *************************************/
 
     .flexcenter {
@@ -714,7 +533,7 @@ address {
     }
 
     /************************************
-        INDEX HEADER desktop
+        Header Index DESKTOP
     ************************************/
 
     .index-header {
@@ -779,7 +598,7 @@ address {
 
 
     /************************************
-           CONTACT Heading desktop
+           Heading Contact desktop
     *************************************/
     .heading {
         display: grid;
@@ -836,18 +655,16 @@ address {
     }
 
     /*************************************
-       INDEX  MAIN  DESKTOP
-*************************************/
+            Main Index DESKTOP
+    *************************************/
 
 
     .card-image {
-        /*behållare för bilderna på personer i olika åldrar*/
         width: 90%;
     }
 
     .index-main {
         background: linear-gradient(180deg, gray 50%, orange 50%);
-        /*två bakgrundsfärger*/
         display: grid;
         grid-template-rows: repeat(3, 1fr);
         grid-template-columns: repeat(2, 1fr);
@@ -861,7 +678,7 @@ address {
 
     .main-header {
         grid-row: 1/2;
-        grid-column:1/2;
+        grid-column: 1/2;
         padding: 100px 0;
     }
 
@@ -879,10 +696,6 @@ address {
 
     }
 
-    /*******************
-    kortet-Emil fix
-    ******************/
-
     .card-container {
         grid-row: 2/3;
         grid-column: 1/3;
@@ -893,7 +706,7 @@ address {
 
 
     /************************************
-           CONTACT Main Desktop
+           Main Contact Desktop
     *************************************/
     .formcontainer {
         display: grid;
@@ -918,7 +731,7 @@ address {
     }
 
     /**********************************
-        INDEX DESKTOP LIST
+       List Index Desktop
     ***********************************/
 
     .list-container {
@@ -930,7 +743,7 @@ address {
 
 
     /**********************************
-           CONTACT map section
+         map section Contact
     ***********************************/
     .card {
         margin: 3% 0% 17% 8%;
